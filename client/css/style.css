@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+/* ------------------------------------ */
+* {
+  font-family: 'Baloo Chettan 2', monospace;
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+    background: #fafafa;
+}
+
+/* ------------------------------------ */
+h1,h2,h3,h4,h5,h6 {margin: 0px;}
+
+p {
+    margin: 10px;
+}
+
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+
+/* ------------------------------------ */
+
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.08), 0 3px 3px rgba(0, 0, 0, 0.11);
+    table-layout: fixed;
+    border: 1p solid black;
+  }
+  
+/*
+
+  table * {
+    position: relative;
+  }
+  
+  table td, table th {
+    padding-left: 8px;
+  }
+  
+  table thead tr {
+    height: 60px;
+    background: #66BB6A;
+    color: white;
+  }
+  
+  table tbody tr {
+    height: 50px;
+  }
+  
+  table tbody tr:last-child {
+    border: 0;
+  }
+  
+  table td, table th {
+    text-align: left;
+  }
+  
+  table td.l, table th.l {
+    text-align: right;
+  }
+  
+  table td.c, table th.c {
+    text-align: center;
+  }
+  
+  table td.r, table th.r {
+    text-align: center;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  
+  tbody tr, tfoot {
+    color: #808080;
+    line-height: 1.2;
+    font-weight: unset;
+  }
+  
+  tbody tr:hover {
+    color: #555555;
+    background-color: #e1f1e1;
+    cursor: pointer;
+  }
+
+  */
