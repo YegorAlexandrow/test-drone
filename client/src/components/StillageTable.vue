@@ -70,7 +70,7 @@ export default {
         barcode: function (source) {
             var text = source + '';
 
-            while(text.length < 8)
+            while(text.length < 7)
                 text = '0' + text;
             return text;
         }
@@ -82,8 +82,7 @@ export default {
 
 .stillage-table {
     border-collapse: collapse;
-    background: white;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     position: relative;
     table-layout: fixed;
@@ -92,13 +91,12 @@ export default {
 }
 
 .stillage-table__row {
-    height: 5em;
+    height: 3.5em;
 }
 
 .stillage-table__cell {
+    background: white;
     border: 1px solid #ccc;
-    padding-top: 16px;
-    padding-bottom: 16px;
     transition: all 0.5s ease-in-out;
     overflow: hidden;
     cursor: default;

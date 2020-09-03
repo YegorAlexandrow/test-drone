@@ -21,7 +21,7 @@ export default {
     },
     data: function () {
         return {
-            currentFrame: 200
+            currentFrame: 0
         }
     },
     props: {
@@ -64,7 +64,7 @@ export default {
 }
 
 .timestamp-visualizer__frame-range {
-    width: calc(89% - 8em);
+    width: calc(80% - 8em);
 }
 
 .timestamp-visualizer__frame-range {
